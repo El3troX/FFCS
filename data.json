@@ -1,0 +1,337 @@
+{
+    "Machine Learning Theory": {
+        "credits": 3,
+        "type": "THEORY",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "MYTHILI T",
+                "slot": "F2+TF2",
+                "venue": "SJT617"
+            },
+            {
+                "faculty": "MANJULA R",
+                "slot": "F1+TF1",
+                "venue": "SJT602A"
+            },
+            {
+                "faculty": "DEGA NAGARAJU",
+                "slot": "F1+TF1",
+                "venue": "SJT604"
+            },
+            {
+                "faculty": "GOPINATH M.P",
+                "slot": "F1+TF1",
+                "venue": "SJT603"
+            },
+            {
+                "faculty": "MANJULA R",
+                "slot": "F2+TF2",
+                "venue": "SJT602"
+            }
+        ]
+    },
+    "Machine Learning Lab": {
+        "credits": 1,
+        "type": "LAB",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "MANJULA R",
+                "slot": "L9+L10",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "GOPINATH M.P",
+                "slot": "L43+L44",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "MANJULA R",
+                "slot": "L53+L54",
+                "venue": "SJT319"
+            },
+            {
+                "faculty": "MYTHILI T",
+                "slot": "L29+L30",
+                "venue": "SJT319"
+            },
+            {
+                "faculty": "DEGA NAGARAJU",
+                "slot": "L47+L48",
+                "venue": "PRP352"
+            }
+        ]
+    },
+    "Exploratory Data Analysis": {
+        "credits": 2,
+        "type": "THEORY",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "VIJAYANAND C",
+                "slot": "A1",
+                "venue": "SJT602"
+            },
+            {
+                "faculty": "BALAJI G N",
+                "slot": "A1",
+                "venue": "SJT603"
+            },
+            {
+                "faculty": "PRAKASH M",
+                "slot": "A1",
+                "venue": "SJT602A"
+            },
+            {
+                "faculty": "PRAKASH M",
+                "slot": "A2",
+                "venue": "SJT602"
+            },
+            {
+                "faculty": "BALAJI G N",
+                "slot": "A2",
+                "venue": "SJT602A"
+            }
+        ]
+    },
+    "Exploratory Data Analysis Lab": {
+        "credits": 1,
+        "type": "LAB",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "PRAKASH M",
+                "slot": "L11+L12",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "VIJAYANAND C",
+                "slot": "L31+L32",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "PRAKASH M",
+                "slot": "L55+L56",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "BALAJI G N",
+                "slot": "L37+L38",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "BALAJI G N",
+                "slot": "L23+L24",
+                "venue": "SJT419"
+            }
+        ]
+    },
+    "Deep Learning": {
+        "credits": 3,
+        "type": "THEORY",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "MALATHI M",
+                "slot": "E1+TE1",
+                "venue": "SJT604"
+            },
+            {
+                "faculty": "RAJKUMAR S",
+                "slot": "E2+TE2",
+                "venue": "SJT603"
+            },
+            {
+                "faculty": "RAJKUMAR S",
+                "slot": "E1+TE1",
+                "venue": "SJT603"
+            },
+            {
+                "faculty": "VARALAKSHMI M",
+                "slot": "E2+TE2",
+                "venue": "SJT602"
+            },
+            {
+                "faculty": "ABDUL GAFFAR H",
+                "slot": "E1+TE1",
+                "venue": "SJT607"
+            }
+        ]
+    },
+    "Deep Learning Lab": {
+        "credits": 1,
+        "type": "LAB",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "MALATHI M",
+                "slot": "L31+L32",
+                "venue": "SJT418"
+            },
+            {
+                "faculty": "RAJKUMAR S",
+                "slot": "L15+L16",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "VARALAKSHMI M",
+                "slot": "L21+L22",
+                "venue": "SJT418"
+            },
+            {
+                "faculty": "ABDUL GAFFAR H",
+                "slot": "L41+L42",
+                "venue": "SJT419"
+            },
+            {
+                "faculty": "RAJKUMAR S",
+                "slot": "L45+L46",
+                "venue": "SJT419"
+            }
+        ]
+    },
+    "Predictive Analysis": {
+        "credits": 3,
+        "type": "THEORY",
+        "mandatory": true,
+        "options": [
+            {
+                "faculty": "SANTHI K",
+                "slot": "B1+TB1",
+                "venue": "SJT602A"
+            },
+            {
+                "faculty": "ANBARASI M",
+                "slot": "B2+TB2",
+                "venue": "SJT601"
+            },
+            {
+                "faculty": "SANJIBAN SEKHAR ROY",
+                "slot": "B1+TB1",
+                "venue": "SJT602"
+            },
+            {
+                "faculty": "ARUNKUMAR T",
+                "slot": "B1+TB1",
+                "venue": "SJT603"
+            },
+            {
+                "faculty": "ANURADHA J",
+                "slot": "B2+TB2",
+                "venue": "SJT602"
+            }
+        ]
+    },
+    "Spanish": {
+        "credits": 2,
+        "type": "THEORY",
+        "mandatory": false,
+        "group": "LANGUAGE",
+        "options": [
+            {
+                "faculty": "SHILPI GUPTA",
+                "slot": "F1",
+                "venue": "SMV104"
+            },
+            {
+                "faculty": "ATUL KUMAR",
+                "slot": "A2",
+                "venue": "SJT604"
+            },
+            {
+                "faculty": "SABYASACHI MISHRA",
+                "slot": "B2",
+                "venue": "CDMM403"
+            },
+            {
+                "faculty": "SHILPI GUPTA",
+                "slot": "G1",
+                "venue": "PRP333"
+            },
+            {
+                "faculty": "SHILPI GUPTA",
+                "slot": "B1",
+                "venue": "PRP333"
+            },
+            {
+                "faculty": "SABYASACHI MISHRA",
+                "slot": "A2",
+                "venue": "CDMM405"
+            },
+            {
+                "faculty": "NUPUR MANASI",
+                "slot": "F2",
+                "venue": "SJT807"
+            },
+            {
+                "faculty": "BAISHALI CHOUDHURI",
+                "slot": "A2",
+                "venue": "SJT324"
+            },
+            {
+                "faculty": "ATUL KUMAR",
+                "slot": "B2",
+                "venue": "CDMM404"
+            },
+            {
+                "faculty": "SHILPI GUPTA",
+                "slot": "A1",
+                "venue": "CDMM404"
+            }
+        ]
+    },
+    "French": {
+        "credits": 2,
+        "type": "THEORY",
+        "mandatory": false,
+        "group": "LANGUAGE",
+        "options": [
+            {
+                "faculty": "COUMARAN G",
+                "slot": "E1",
+                "venue": "TT404"
+            },
+            {
+                "faculty": "VISALAKSHI R",
+                "slot": "D2",
+                "venue": "SMV116"
+            },
+            {
+                "faculty": "VISALAKSHI R",
+                "slot": "F2",
+                "venue": "CDMM405"
+            },
+            {
+                "faculty": "SHANTANU SHANDILYA",
+                "slot": "D2",
+                "venue": "SJT627"
+            },
+            {
+                "faculty": "CALAIVANANE R",
+                "slot": "F1",
+                "venue": "PRP629"
+            },
+            {
+                "faculty": "ANTOINETTE DANIEL",
+                "slot": "F1",
+                "venue": "SJT508"
+            },
+            {
+                "faculty": "SHANTANU SHANDILYA",
+                "slot": "G1",
+                "venue": "SJT617"
+            },
+            {
+                "faculty": "MALATHY O",
+                "slot": "A2",
+                "venue": "SMV219"
+            },
+            {
+                "faculty": "VISALAKSHI R",
+                "slot": "G1",
+                "venue": "PRP372"
+            }
+        ]
+    }
+}

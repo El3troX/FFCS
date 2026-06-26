@@ -1,0 +1,1002 @@
+{
+  "A1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "08:00",
+        "end": "08:50"
+      },
+      {
+        "day": "WED",
+        "start": "09:00",
+        "end": "09:50"
+      }
+    ]
+  },
+  "F1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "day": "WED",
+        "start": "10:00",
+        "end": "10:50"
+      }
+    ]
+  },
+  "D1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "10:00",
+        "end": "10:50"
+      },
+      {
+        "day": "THU",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "TB1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "11:00",
+        "end": "11:50"
+      }
+    ]
+  },
+  "TG1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "12:00",
+        "end": "12:50"
+      }
+    ]
+  },
+  "L1": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "L2": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "08:50",
+        "end": "09:40"
+      }
+    ]
+  },
+  "L3": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "09:40",
+        "end": "10:30"
+      }
+    ]
+  },
+  "L4": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "10:30",
+        "end": "11:20"
+      }
+    ]
+  },
+  "L5": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "11:20",
+        "end": "12:10"
+      }
+    ]
+  },
+  "L6": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "12:10",
+        "end": "13:00"
+      }
+    ]
+  },
+  "B1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "08:00",
+        "end": "08:50"
+      },
+      {
+        "day": "THU",
+        "start": "09:00",
+        "end": "09:50"
+      }
+    ]
+  },
+  "G1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "09:00",
+        "end": "09:50"
+      },
+      {
+        "day": "THU",
+        "start": "10:00",
+        "end": "10:50"
+      }
+    ]
+  },
+  "E1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "10:00",
+        "end": "10:50"
+      },
+      {
+        "day": "FRI",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "TC1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "11:00",
+        "end": "11:50"
+      }
+    ]
+  },
+  "TAA1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "12:00",
+        "end": "12:50"
+      }
+    ]
+  },
+  "L7": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "L8": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "08:50",
+        "end": "09:40"
+      }
+    ]
+  },
+  "L9": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "09:40",
+        "end": "10:30"
+      }
+    ]
+  },
+  "L10": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "10:30",
+        "end": "11:20"
+      }
+    ]
+  },
+  "L11": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "11:20",
+        "end": "12:10"
+      }
+    ]
+  },
+  "L12": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "12:10",
+        "end": "13:00"
+      }
+    ]
+  },
+  "C1": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "08:00",
+        "end": "08:50"
+      },
+      {
+        "day": "FRI",
+        "start": "09:00",
+        "end": "09:50"
+      }
+    ]
+  },
+  "TD1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "11:00",
+        "end": "11:50"
+      }
+    ]
+  },
+  "L13": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "L14": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "08:50",
+        "end": "09:40"
+      }
+    ]
+  },
+  "L15": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "09:40",
+        "end": "10:30"
+      }
+    ]
+  },
+  "L16": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "10:30",
+        "end": "11:20"
+      }
+    ]
+  },
+  "TE1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "11:00",
+        "end": "11:50"
+      }
+    ]
+  },
+  "TCC1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "12:00",
+        "end": "12:50"
+      }
+    ]
+  },
+  "L19": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "L20": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "08:50",
+        "end": "09:40"
+      }
+    ]
+  },
+  "L21": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "09:40",
+        "end": "10:30"
+      }
+    ]
+  },
+  "L22": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "10:30",
+        "end": "11:20"
+      }
+    ]
+  },
+  "L23": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "11:20",
+        "end": "12:10"
+      }
+    ]
+  },
+  "L24": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "12:10",
+        "end": "13:00"
+      }
+    ]
+  },
+  "TA1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "10:00",
+        "end": "10:50"
+      }
+    ]
+  },
+  "TF1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "11:00",
+        "end": "11:50"
+      }
+    ]
+  },
+  "TDD1": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "12:00",
+        "end": "12:50"
+      }
+    ]
+  },
+  "L25": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "08:00",
+        "end": "08:50"
+      }
+    ]
+  },
+  "L26": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "08:50",
+        "end": "09:40"
+      }
+    ]
+  },
+  "L27": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "09:40",
+        "end": "10:30"
+      }
+    ]
+  },
+  "L28": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "10:30",
+        "end": "11:20"
+      }
+    ]
+  },
+  "L29": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "11:20",
+        "end": "12:10"
+      }
+    ]
+  },
+  "L30": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "12:10",
+        "end": "13:00"
+      }
+    ]
+  },
+  "A2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "14:00",
+        "end": "14:50"
+      },
+      {
+        "day": "WED",
+        "start": "15:00",
+        "end": "15:50"
+      }
+    ]
+  },
+  "F2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "15:00",
+        "end": "15:50"
+      },
+      {
+        "day": "WED",
+        "start": "16:00",
+        "end": "16:50"
+      }
+    ]
+  },
+  "D2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "day": "THU",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "TB2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "17:00",
+        "end": "17:50"
+      }
+    ]
+  },
+  "TG2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "18:00",
+        "end": "18:50"
+      }
+    ]
+  },
+  "L31": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "L32": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "14:50",
+        "end": "15:40"
+      }
+    ]
+  },
+  "L33": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "15:40",
+        "end": "16:30"
+      }
+    ]
+  },
+  "L34": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "16:30",
+        "end": "17:20"
+      }
+    ]
+  },
+  "L35": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "17:20",
+        "end": "18:10"
+      }
+    ]
+  },
+  "L36": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "MON",
+        "start": "18:10",
+        "end": "19:00"
+      }
+    ]
+  },
+  "B2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "14:00",
+        "end": "14:50"
+      },
+      {
+        "day": "THU",
+        "start": "15:00",
+        "end": "15:50"
+      }
+    ]
+  },
+  "G2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "15:00",
+        "end": "15:50"
+      },
+      {
+        "day": "THU",
+        "start": "16:00",
+        "end": "16:50"
+      }
+    ]
+  },
+  "E2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "16:00",
+        "end": "16:50"
+      },
+      {
+        "day": "FRI",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "TC2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "17:00",
+        "end": "17:50"
+      }
+    ]
+  },
+  "TAA2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "18:00",
+        "end": "18:50"
+      }
+    ]
+  },
+  "L37": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "L38": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "14:50",
+        "end": "15:40"
+      }
+    ]
+  },
+  "L39": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "15:40",
+        "end": "16:30"
+      }
+    ]
+  },
+  "L40": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "16:30",
+        "end": "17:20"
+      }
+    ]
+  },
+  "L41": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "17:20",
+        "end": "18:10"
+      }
+    ]
+  },
+  "L42": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "TUE",
+        "start": "18:10",
+        "end": "19:00"
+      }
+    ]
+  },
+  "C2": {
+    "kind": "THEORY",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "14:00",
+        "end": "14:50"
+      },
+      {
+        "day": "FRI",
+        "start": "15:00",
+        "end": "15:50"
+      }
+    ]
+  },
+  "TD2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "17:00",
+        "end": "17:50"
+      }
+    ]
+  },
+  "TBB2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "18:00",
+        "end": "18:50"
+      }
+    ]
+  },
+  "L43": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "L44": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "14:50",
+        "end": "15:40"
+      }
+    ]
+  },
+  "L45": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "15:40",
+        "end": "16:30"
+      }
+    ]
+  },
+  "L46": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "16:30",
+        "end": "17:20"
+      }
+    ]
+  },
+  "L47": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "17:20",
+        "end": "18:10"
+      }
+    ]
+  },
+  "L48": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "WED",
+        "start": "18:10",
+        "end": "19:00"
+      }
+    ]
+  },
+  "TE2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "17:00",
+        "end": "17:50"
+      }
+    ]
+  },
+  "TCC2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "18:00",
+        "end": "18:50"
+      }
+    ]
+  },
+  "L49": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "L50": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "14:50",
+        "end": "15:40"
+      }
+    ]
+  },
+  "L51": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "15:40",
+        "end": "16:30"
+      }
+    ]
+  },
+  "L52": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "16:30",
+        "end": "17:20"
+      }
+    ]
+  },
+  "L53": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "17:20",
+        "end": "18:10"
+      }
+    ]
+  },
+  "L54": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "THU",
+        "start": "18:10",
+        "end": "19:00"
+      }
+    ]
+  },
+  "TA2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "16:00",
+        "end": "16:50"
+      }
+    ]
+  },
+  "TF2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "17:00",
+        "end": "17:50"
+      }
+    ]
+  },
+  "TDD2": {
+    "kind": "TUTORIAL",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "18:00",
+        "end": "18:50"
+      }
+    ]
+  },
+  "L55": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "14:00",
+        "end": "14:50"
+      }
+    ]
+  },
+  "L56": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "14:50",
+        "end": "15:40"
+      }
+    ]
+  },
+  "L57": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "15:40",
+        "end": "16:30"
+      }
+    ]
+  },
+  "L58": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "16:30",
+        "end": "17:20"
+      }
+    ]
+  },
+  "L59": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "17:20",
+        "end": "18:10"
+      }
+    ]
+  },
+  "L60": {
+    "kind": "LAB",
+    "occurrences": [
+      {
+        "day": "FRI",
+        "start": "18:10",
+        "end": "19:00"
+      }
+    ]
+  }
+}

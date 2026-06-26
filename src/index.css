@@ -1,0 +1,382 @@
+@import "tailwindcss";
+
+/* ── Theme Configuration ── */
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand palette */
+  --color-brand-50: #eef2ff;
+  --color-brand-100: #e0e7ff;
+  --color-brand-200: #c7d2fe;
+  --color-brand-300: #a5b4fc;
+  --color-brand-400: #818cf8;
+  --color-brand-500: #6366f1;
+  --color-brand-600: #4f46e5;
+  --color-brand-700: #4338ca;
+  --color-brand-800: #3730a3;
+  --color-brand-900: #312e81;
+
+  /* Surface colors for dark mode */
+  --color-surface-900: #0b1120;
+  --color-surface-800: #0f172a;
+  --color-surface-700: #1e293b;
+  --color-surface-600: #334155;
+  --color-surface-500: #475569;
+  --color-surface-400: #64748b;
+  --color-surface-300: #94a3b8;
+  --color-surface-200: #cbd5e1;
+  --color-surface-100: #e2e8f0;
+  --color-surface-50: #f8fafc;
+
+  /* Accent colors */
+  --color-accent-cyan: #06b6d4;
+  --color-accent-purple: #a855f7;
+  --color-accent-pink: #ec4899;
+  --color-accent-emerald: #10b981;
+  --color-accent-amber: #f59e0b;
+  --color-accent-rose: #f43f5e;
+
+  /* Timetable subject palette */
+  --color-tt-0: #6366f1;
+  --color-tt-1: #8b5cf6;
+  --color-tt-2: #ec4899;
+  --color-tt-3: #f43f5e;
+  --color-tt-4: #f97316;
+  --color-tt-5: #eab308;
+  --color-tt-6: #22c55e;
+  --color-tt-7: #14b8a6;
+  --color-tt-8: #06b6d4;
+  --color-tt-9: #3b82f6;
+  --color-tt-10: #d946ef;
+  --color-tt-11: #f472b6;
+
+  /* Animation timing */
+  --animate-fade-in: fade-in 0.4s ease-out both;
+  --animate-slide-up: slide-up 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-spin-slow: spin 3s linear infinite;
+  --animate-bounce-subtle: bounce-subtle 0.5s ease-out;
+}
+
+/* ── Keyframes ── */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(99, 102, 241, 0.3); }
+  50% { box-shadow: 0 0 24px rgba(99, 102, 241, 0.6), 0 0 48px rgba(99, 102, 241, 0.15); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes bounce-subtle {
+  0% { transform: scale(0.95); opacity: 0.7; }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes gradient-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+
+/* ── Base Styles ── */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark mode body */
+.dark body {
+  background: linear-gradient(135deg, #0b1120 0%, #0f172a 50%, #0b1120 100%);
+  color: #e2e8f0;
+}
+
+/* Light mode body */
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 50%, #f8fafc 100%);
+  color: #1e293b;
+}
+
+/* ── Glassmorphism Utilities ── */
+@utility glass {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+@utility glass-light {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(99, 102, 241, 0.15);
+}
+
+@utility glass-strong {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(99, 102, 241, 0.15);
+}
+
+@utility glass-card {
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+@utility gradient-text {
+  background: linear-gradient(135deg, #6366f1, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@utility gradient-border {
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+
+@utility btn-gradient {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #06b6d4 100%);
+  background-size: 200% 200%;
+  animation: gradient-flow 3s ease infinite;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+@utility btn-gradient-hover {
+  filter: brightness(1.1);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.4);
+  transform: translateY(-1px);
+}
+
+/* ── Timetable Grid ── */
+.timetable-grid {
+  display: grid;
+  gap: 2px;
+  font-size: 0.65rem;
+  line-height: 1.2;
+  min-width: 900px;
+}
+
+.timetable-header-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 4px;
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-surface-300);
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 6px;
+}
+
+.timetable-day-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-brand-300);
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 6px;
+  writing-mode: horizontal-tb;
+}
+
+.timetable-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 3px;
+  border-radius: 6px;
+  min-height: 52px;
+  transition: all 0.2s ease;
+  text-align: center;
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+.timetable-cell.occupied {
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.timetable-cell.occupied:hover {
+  transform: scale(1.03);
+  z-index: 10;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.timetable-cell.occupied::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.timetable-cell.empty {
+  background: rgba(15, 23, 42, 0.2);
+  border: 1px dashed rgba(71, 85, 105, 0.2);
+}
+
+.timetable-cell .subject-code {
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+}
+
+.timetable-cell .faculty-name {
+  font-size: 0.55rem;
+  opacity: 0.85;
+  margin-top: 1px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.timetable-cell .venue-label {
+  font-size: 0.5rem;
+  opacity: 0.7;
+  margin-top: 1px;
+}
+
+.timetable-cell .slot-label {
+  font-size: 0.48rem;
+  opacity: 0.6;
+  margin-top: 1px;
+}
+
+.timetable-lunch-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  color: var(--color-surface-400);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: rgba(15, 23, 42, 0.3);
+  border-radius: 6px;
+  min-height: 28px;
+}
+
+/* ── Scrollbar Styling ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.5);
+}
+
+/* ── Selection ── */
+::selection {
+  background: rgba(99, 102, 241, 0.3);
+  color: white;
+}
+
+/* ── Focus ring ── */
+*:focus-visible {
+  outline: 2px solid var(--color-brand-400);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Progress bar shimmer ── */
+.progress-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* ── Drag and drop ── */
+.drop-zone-active {
+  border-color: var(--color-brand-400) !important;
+  background: rgba(99, 102, 241, 0.08) !important;
+  box-shadow: 0 0 24px rgba(99, 102, 241, 0.2);
+}
+
+/* ── Counter animation ── */
+@property --num {
+  syntax: '<integer>';
+  inherits: false;
+  initial-value: 0;
+}
+
+.animate-counter {
+  transition: --num 1s ease-out;
+  counter-reset: num var(--num);
+}
+
+/* ── Toast notification ── */
+.toast-enter {
+  animation: slide-up 0.3s ease-out;
+}
+
+.toast-exit {
+  animation: fade-in 0.2s ease-in reverse;
+}
