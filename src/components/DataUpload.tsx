@@ -186,18 +186,85 @@ export function DataUpload({ onLoadData }: DataUploadProps) {
       </div>
 
       {/* Auto-load option */}
-      <button
-        onClick={async () => {
-          setIsLoading(true);
-          await onLoadData();
-          setIsLoading(false);
-        }}
-        className="w-full py-2.5 rounded-lg text-xs font-medium text-surface-400
-          hover:text-surface-200 bg-surface-800/30 hover:bg-surface-800/50
-          border border-surface-600/20 transition-all cursor-pointer"
-      >
-        Or load default data.json
-      </button>
+      <div className="flex gap-2">
+        <button
+          onClick={async () => {
+            setIsLoading(true);
+            await onLoadData();
+            setIsLoading(false);
+          }}
+          className="flex-1 py-2.5 rounded-lg text-xs font-medium text-surface-400
+            hover:text-surface-200 bg-surface-800/30 hover:bg-surface-800/50
+            border border-surface-600/20 transition-all cursor-pointer"
+        >
+          Load Example Data (B.Tech CSE/DS 4th Year)
+        </button>
+
+        <a
+          href="/datatemplate.json"
+          download="datatemplate.json"
+          className="flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-lg text-xs font-medium 
+            text-brand-400 hover:text-brand-300 bg-brand-500/10 hover:bg-brand-500/20
+            border border-brand-500/20 transition-all cursor-pointer"
+          title="Download the JSON schema template"
+        >
+          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+          </svg>
+          Download Template
+        </a>
+      </div>
+
+      <div className="mt-4 pt-4 border-t border-surface-600/30">
+        <details className="group">
+          <summary className="text-xs font-medium text-surface-400 hover:text-surface-200 cursor-pointer flex items-center gap-1.5 transition-colors">
+            <svg className="w-3.5 h-3.5 transition-transform group-open:rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+            View JSON Data Schema Template
+          </summary>
+          <div className="mt-3 p-3 bg-[#0d1117] rounded-lg border border-surface-700/50 overflow-x-auto">
+            <pre className="text-[10px] leading-relaxed text-surface-300 font-mono">
+{`{
+  "Example Theory Subject": {
+    "credits": 3,
+    "type": "THEORY",
+    "mandatory": true,
+    "options": [
+      {
+        "faculty": "Dr. Alan Turing",
+        "slot": "A1+TA1",
+        "venue": "SJT101"
+      }
+    ]
+  },
+  "Example Elective": {
+    "credits": 3,
+    "type": "THEORY",
+    "mandatory": false,
+    "group": "Professional Elective",
+    "options": [
+      {
+        "faculty": "Dr. Grace Hopper",
+        "slot": "C1+TC1",
+        "venue": "PRP301"
+      }
+    ]
+  }
+}`}
+            </pre>
+          </div>
+        </details>
+        
+        <div className="mt-3 flex items-start gap-2 p-3 rounded-lg bg-brand-500/10 border border-brand-500/20 text-xs text-brand-200/90">
+          <svg className="w-4 h-4 shrink-0 mt-0.5 text-brand-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+          </svg>
+          <p className="leading-relaxed">
+            <strong>Pro Tip:</strong> You can copy this data template and give it to an AI like ChatGPT along with your university's course list and teachers. Just ask it to <span className="text-brand-300 font-medium">"Create a data.json file following this exact schema based on my course list. Don't forget to mention what subjects are mandatory!"</span> and you'll have your personalized dataset ready in seconds.
+          </p>
+        </div>
+      </div>
 
       {dataError && (
         <div className="flex items-start gap-2 px-3 py-2 rounded-lg bg-red-500/8 border border-red-500/15 text-xs text-red-300/80 animate-slide-up">

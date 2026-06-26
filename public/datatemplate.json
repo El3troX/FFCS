@@ -1,0 +1,49 @@
+{
+  "Example Mandatory Theory Subject": {
+    "credits": 3,
+    "type": "THEORY",
+    "mandatory": true,
+    "options": [
+      {
+        "faculty": "Dr. Alan Turing",
+        "slot": "A1+TA1",
+        "venue": "SJT101"
+      },
+      {
+        "faculty": "Dr. Ada Lovelace",
+        "slot": "B1+TB1",
+        "venue": "SJT102"
+      }
+    ]
+  },
+  "Example Mandatory Theory Subject Lab": {
+    "credits": 1,
+    "type": "LAB",
+    "mandatory": true,
+    "options": [
+      {
+        "faculty": "Dr. Alan Turing",
+        "slot": "L1+L2",
+        "venue": "SJT201"
+      },
+      {
+        "faculty": "Dr. Ada Lovelace",
+        "slot": "L3+L4",
+        "venue": "SJT202"
+      }
+    ]
+  },
+  "Example Elective Subject": {
+    "credits": 3,
+    "type": "THEORY",
+    "mandatory": false,
+    "group": "Professional Elective",
+    "options": [
+      {
+        "faculty": "Dr. Grace Hopper",
+        "slot": "C1+TC1",
+        "venue": "PRP301"
+      }
+    ]
+  }
+}
